@@ -1,0 +1,54 @@
+---------------Global Plugins---------------
+1. Auto Rename Tag
+2. Beautify
+3. Better Comments (comments Colorizer)
+4. Bracket Pair Colorizer 2
+5. Color Highlight
+6. Code Runner (for run in console + run button in right top)
+7. Code Spell Checker
+8. indent-rainbow
+9. Image Preview
+10. Path Intellisense
+11.  prettier - Code formatter (Code formate)
+12. Settings Sync
+
+
+----------------Themes--------------
+1.0Andromeda
+2. Community Material Theme 
+3. Material Theme (High contrast)
+3.  SynthWave
+
+-----------------Icon Theme--------------
+1. Material Icon Theme
+2. vscode-icons
+
+-------------------Code Beautify-----------
+1. prettier - Code formatter
+2. Beautify
+
+------------------Html------------------------
+1.Html Css Support (auto suggest class name)
+2. Live Server
+
+----------------------Css -------------------
+1. IntelliSense for CSS class names in HTML (show bootstrap class names)
+2. Css Peek (show the css in peek)
+
+----------------------JavaScript------------------
+1. ESLint ( )
+2. ES7 React/.... ( )
+3. JavaScript (ES6) code snippets
+4. 
+
+
+-----------------------C,C++----------------
+1. C/C++
+2. C/C++ Compile Runner
+3. C++ intellisense
+
+------------------PhP------------------------
+1.PHP Intelephense
+2. PHP IntelliSense
+3. phpfmt - PHP formatter
+4. 
