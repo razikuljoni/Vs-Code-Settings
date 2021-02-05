@@ -1,109 +1,102 @@
 {
-    "liveServer.settings.CustomBrowser": "opera",
-    "workbench.iconTheme": "material-icon-theme",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Default High Contrast",
-    "C_Cpp.updateChannel": "Insiders",
-    "auto-close-tag.fullMode": true,
-    "window.zoomLevel": 0,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 100,
-    "update.mode": "manual",
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.multiRootWorkspaceName": "vs code",
+  "liveServer.settings.CustomBrowser": "opera",
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "C_Cpp.updateChannel": "Insiders",
+  "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100,
+  "update.mode": "manual",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.multiRootWorkspaceName": "vs code",
+
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Cascadia Code PL, Arial, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // "prettier.disableLanguages": ["javascript", "javascriptreact"],
+
+  // spell chacker
+  "cSpell.userWords": [
+    "Bangla",
+    "Razikul",
+    "crossorigin",
+    "fibo",
+    "fontawsome",
+    "globalmedia"
+  ],
+
+  //bracket pair colorizer
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue",
+    "Orangered",
+    "Lime"
+  ],
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  //
+  "color-highlight.matchWords": true,
+  "window.menuBarVisibility": "default",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.mouseWheelZoom": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "sync.gist": "d8df6e2af0ed6465019ae5948dc2c29d",
+  "[json]": {
     "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
+      "strings": true
     },
-    "cSpell.userWords": [
-        "Bangla",
-        "Razikul",
-        "crossorigin",
-        "fibo",
-        "fontawsome",
-        "globalmedia"
-    ],
-    "c-cpp-compile-run.run-in-external-terminal": true,
-    "code-runner.runInTerminal": true,
-    
-    // cursor
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorBlinking": "expand",
+    "editor.suggest.insertMode": "replace"
+  },
 
-    // powerShell 
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-
-    //config related to code formateing
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": true,
-    "html.format.indentHandlebars": true,
-    "prettier.tabWidth": 4,
-    // These are all my auto-save configs
-    "editor.formatOnSave": true,
-    // turn it off for JS and JSX, we will do this via eslint
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
-    "[javascriptreact]": {
-        "editor.formatOnSave": false
-    },
-    // show eslint icon at bottom toolbar
-    "eslint.alwaysShowStatus": true,
-    // tell the ESLint plugin to run on save
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-    "prettier.disableLanguages": ["javascript", "javascriptreact"],
-    //
-
-    //bracket pair colorizer
-    "bracket-pair-colorizer-2.colors": [
-        "Gold",
-        "Orchid",
-        "LightSkyBlue",
-        "Orangered",
-        "Lime"
-    ],
-    "bracket-pair-colorizer-2.scopeLineCSS": [
-        "borderStyle : solid",
-        "borderWidth : 1px",
-        "borderColor : {color}",
-        "opacity: 0.5"
-    ],
-    //
-    "color-highlight.matchWords": true,
-    "window.menuBarVisibility": "default",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "breadcrumbs.enabled": true,
-    "editor.renderWhitespace": "all",
-    "editor.mouseWheelZoom": true,
-
-    "emmet.triggerExpansionOnTab": true,
-    "sync.gist": "d8df6e2af0ed6465019ae5948dc2c29d",
-    "[json]": {
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace"
-    },
-    "editor.fontFamily": "Arial",
-    "C_Cpp.default.includePath": [],
-    "launch": {
-        "configurations": [],
-        "compounds": []
-    },
-    //terminal
-    "editor.fontSize": 18,
-    "terminal.integrated.automationShell.windows": "",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorWidth": 2,
-    "terminal.integrated.fontFamily": "Cascadia Code PL",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontWeightBold": null,
-    "prettier.singleQuote": true
+  // powerShell
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "c-cpp-compile-run.run-in-external-terminal": true,
+  "code-runner.runInTerminal": true,
+  //terminal
+  "terminal.integrated.fontFamily": "Cascadia Code PL, Fira Code",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontWeightBold": "normal"
 }
