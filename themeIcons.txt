@@ -1,3 +1,5 @@
+---------------------___________For Web Design and C Languase___________------------------------
+
 ---------------Global Plugins---------------
 1. Auto Rename Tag
 2. Beautify
@@ -34,6 +36,9 @@
 ----------------------Css -------------------
 1. IntelliSense for CSS class names in HTML (show bootstrap class names)
 2. Css Peek (show the css in peek)
+
+---------------------Bootstrap-----------------------
+1. IntelliSense for CSS class names in HTML (Suggest Sootstrap classes)
 
 ----------------------JavaScript------------------
 1. ESLint ( )
